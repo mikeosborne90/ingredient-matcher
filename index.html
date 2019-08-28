@@ -13,6 +13,18 @@
 
 <body>
 
+    <main class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Please enter an ingredient:</h1>
+                <label for="ingredientName">Add onto your recipe:</label>
+                <input type="text" id="ingredientName">
+                <button type="submit" onclick="addIngredientToList()" class="btn bg-primary">Add</button>
+                <ul id="ingredientList"></ul>
+            </div>
+        </div>
+    </main>
+
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

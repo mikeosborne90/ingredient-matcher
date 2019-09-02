@@ -16,8 +16,80 @@
     <main class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Please enter an ingredient:</h1>
-                <label for="ingredientName">Add onto your recipe:</label>
+                <h1 class="text-center">Please choose an ingredient:</h1>
+                <h3>Most Common</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 ingredientPictures">
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/almond.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/avocado.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/cabbage.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/chili.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/cucumber.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/garlic.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 ingredientPictures">
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/honey.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/lemon.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/lime.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/mango-yellow.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/milk.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/noodle-pasta.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 ingredientPictures">
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/onion-red.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/onion-white.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/orange.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/papaya.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/tomato.jpg" alt="" />
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <img class="img-responsive" src="img/watermelon.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Cannot find your ingredient?</h3>
+                <label for="ingredientName">Please enter your ingredient:</label>
                 <input type="text" id="ingredientName">
                 <button type="submit" onclick="addIngredientToList()" class="btn bg-primary">Add</button>
                 <ul id="ingredientList"></ul>
